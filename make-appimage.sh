@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/64x64/apps/knights.png
 export DESKTOP=/usr/share/applications/org.kde.knights.desktop
 export STARTUPWMCLASS=org.kde.knights
 export DEPLOY_QT=1
+export QT_DIR=qt6
 
 # Deploy dependencies
 quick-sharun /usr/bin/knights /usr/bin/gnuchessu /usr/bin/gnuchessx /usr/bin/gnuchess
