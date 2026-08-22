@@ -3,7 +3,7 @@
 # Knights-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Knights-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Knights-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/Knights-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Knights-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/Knights-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Knights-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Knights-AppImage)](https://github.com/pkgforge-dev/Knights-AppImage/releases/latest)
 
 <p align="center">
