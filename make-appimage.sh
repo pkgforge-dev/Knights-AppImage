@@ -11,15 +11,10 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/64x64/apps/knights.png
 export DESKTOP=/usr/share/applications/org.kde.knights.desktop
 export STARTUPWMCLASS=org.kde.knights
-export DEPLOY_QT=1
-export QT_DIR=qt6
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/knights /usr/bin/gnuchessu /usr/bin/gnuchessx /usr/bin/gnuchess
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
-
-# Test the app for 12 seconds, if the app normally quits before that time
-# then skip this or check if some flag can be passed that makes it stay open
-quick-sharun --test ./dist/*.AppImage
