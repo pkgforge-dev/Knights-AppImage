@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/64x64/apps/knights.png
 export DESKTOP=/usr/share/applications/org.kde.knights.desktop
 export STARTUPWMCLASS=org.kde.knights
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/knights /usr/bin/gnuchessu /usr/bin/gnuchessx /usr/bin/gnuchess
